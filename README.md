@@ -10,11 +10,11 @@ https://https://image-cropper-umber.vercel.app/
 
 # Test task:
 
-1. Выполнить верстку, которая представлена на изображении.
+## 1. Выполнить верстку, которая представлена на изображении.
 
-[![CropperStock](https://github.com/DieReiterin/ImageCropper/blob/main/src/assets/CropperStock.jpg)]
+![CropperStock](https://github.com/DieReiterin/ImageCropper/blob/main/src/assets/CropperStock.jpg)
 
-2. Реализовать следующий функционал:
+## 2. Реализовать следующий функционал:
 
 ● Управление позицией и размерами блока с помощью input;
 
@@ -24,7 +24,7 @@ https://https://image-cropper-umber.vercel.app/
 
 ● Управление позицией блока с помощью красного прямоугольника в центре выполнить по такому же принципу.
 
-3. Условия:
+## 3. Условия:
 
 ● Блок не должен выходить за рамки родительского элемента;
 
