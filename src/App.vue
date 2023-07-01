@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <cropper-area></cropper-area>
+    <input-area></input-area>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CropperArea from '@/components/CropperArea.vue'
+import InputArea from '@/components/InputArea.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CropperArea,
+    InputArea,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.container {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  margin: 20px auto 20px 20px;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+
+  
 }
 </style>
