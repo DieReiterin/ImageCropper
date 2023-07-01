@@ -1,7 +1,7 @@
 # Прототип инструмента для обрезки изображений - Кроппер (SPA) 
 
 ## Демо
-https://https://image-cropper-umber.vercel.app/
+https://image-cropper-umber.vercel.app/
 
 ## Локальный запуск
 #### `npm i `
